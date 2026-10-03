@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Last Bite · 마지막 한입</title>
+<meta name="description" content="A cozy 3×3 food chain puzzle. 마지막 한입 · 最後のひとくち · 最后一口 · El último bocado">
+<link rel="icon" href="icon.svg">
+<style>
+  :root { --bg: #f5f2e8; --ink: #344d3c; --muted: #6f7966; --card: #fffdf6; --line: #dcded0; --accent: #587044; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1f261f; --ink: #e9eee0; --muted: #b3bca8; --card: #2a332a; --line: #3d483c; --accent: #a8c48a; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 system-ui, -apple-system, "Apple SD Gothic Neo", "Hiragino Sans", "PingFang SC", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; } header img { width: 72px; height: 72px; border-radius: 18px; }
+  h1 { margin: 0; font-size: 28px; } .sub { margin: 0; color: var(--muted); }
+  .hero { width: 100%; border-radius: 20px; margin: 24px 0; border: 1px solid var(--line); }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; }
+  .card h2 { margin: 0 0 6px; font-size: 17px; } .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  a { color: var(--accent); } footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header><img src="icon.svg" alt=""><div><h1>Last Bite</h1><p class="sub">마지막 한입 · 最後のひとくち · 最后一口 · El último bocado</p></div></header>
+  <img class="hero" src="feature.png" alt="Last Bite — a cozy food chain puzzle">
+  <div class="grid">
+    <div class="card" lang="ko"><h2>지원</h2><p>문의나 버그 제보는 <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>으로 보내주세요. 구매 복원은 상점 화면의 ‘구매 복원’을 눌러주세요.</p></div>
+    <div class="card" lang="en"><h2>Support</h2><p>Questions or bug reports: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>. To restore a purchase, tap “Restore purchase” in the shop.</p></div>
+    <div class="card" lang="ja"><h2>サポート</h2><p>お問い合わせ・不具合報告は <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a> まで。購入の復元はショップの「購入を復元」をタップしてください。</p></div>
+    <div class="card" lang="zh-Hans"><h2>支持</h2><p>问题或错误反馈请发送至 <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>。恢复购买请在商店中点击“恢复购买”。</p></div>
+    <div class="card" lang="es"><h2>Soporte</h2><p>Preguntas o errores: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>. Para restaurar una compra, toca «Restaurar compra» en la tienda.</p></div>
+  </div>
+  <footer><a href="privacy.html">Privacy Policy · 개인정보처리방침 · プライバシーポリシー · 隐私政策 · Política de privacidad</a></footer>
+</main>
+</body>
+</html>
